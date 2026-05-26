@@ -1,0 +1,30 @@
+[
+  {
+    "id": "t1",
+    "type": "table",
+    "columns": [
+      { "key": "name",       "label": "Name",       "sortable": true },
+      { "key": "role",       "label": "Role",       "sortable": true },
+      { "key": "status",     "label": "Status",     "sortable": true },
+      { "key": "department", "label": "Department", "sortable": true },
+      { "key": "joined",     "label": "Joined",     "sortable": true }
+    ],
+    "rows": [
+      { "name": "Alice Smith",      "role": "Software Engineer",  "status": "Active",   "department": "Engineering",   "joined": "2022-01-15" },
+      { "name": "Bob Johnson",      "role": "Product Manager",    "status": "Active",   "department": "Product",       "joined": "2021-11-03" },
+      { "name": "Charlie Brown",    "role": "Designer",           "status": "Inactive", "department": "Design",        "joined": "2020-05-22" },
+      { "name": "Diana Prince",     "role": "Data Scientist",     "status": "Active",   "department": "Data",          "joined": "2023-08-11" },
+      { "name": "Evan Wright",      "role": "DevOps Engineer",    "status": "Active",   "department": "Engineering",   "joined": "2022-09-01" },
+      { "name": "Fiona Gallagher",  "role": "Marketing Lead",     "status": "Active",   "department": "Marketing",     "joined": "2019-12-10" },
+      { "name": "George Miller",    "role": "HR Specialist",      "status": "Inactive", "department": "HR",            "joined": "2021-02-14" },
+      { "name": "Hannah Davis",     "role": "Software Engineer",  "status": "Active",   "department": "Engineering",   "joined": "2022-07-23" },
+      { "name": "Ian Fleming",      "role": "Security Analyst",   "status": "Active",   "department": "Security",      "joined": "2020-10-05" },
+      { "name": "Julia Roberts",    "role": "Product Designer",   "status": "Active",   "department": "Design",        "joined": "2023-01-19" },
+      { "name": "Kevin Hart",       "role": "Frontend Developer", "status": "Active",   "department": "Engineering",   "joined": "2021-06-30" },
+      { "name": "Laura Croft",      "role": "Data Engineer",      "status": "Inactive", "department": "Data",          "joined": "2018-04-12" },
+      { "name": "Michael Scott",    "role": "Sales Rep",          "status": "Active",   "department": "Sales",         "joined": "2022-11-25" },
+      { "name": "Nina Simone",      "role": "Backend Developer",  "status": "Active",   "department": "Engineering",   "joined": "2020-03-08" },
+      { "name": "Oscar Wilde",      "role": "Technical Writer",   "status": "Active",   "department": "Documentation", "joined": "2021-09-17" }
+    ]
+  }
+]

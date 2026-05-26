@@ -1,0 +1,38 @@
+[
+  {
+    "id": "c1",
+    "type": "card",
+    "title": "Total Users",
+    "value": "12,483",
+    "description": "Registered accounts",
+    "trend": 12,
+    "icon": "Users"
+  },
+  {
+    "id": "c2",
+    "type": "card",
+    "title": "Revenue",
+    "value": "$48,291",
+    "description": "Monthly recurring",
+    "trend": 8,
+    "icon": "DollarSign"
+  },
+  {
+    "id": "c3",
+    "type": "card",
+    "title": "Active Projects",
+    "value": "37",
+    "description": "In progress",
+    "trend": 3,
+    "icon": "FolderOpen"
+  },
+  {
+    "id": "c4",
+    "type": "card",
+    "title": "Error Rate",
+    "value": "0.2%",
+    "description": "Last 24 hours",
+    "trend": -5,
+    "icon": "AlertTriangle"
+  }
+]

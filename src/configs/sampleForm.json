@@ -1,0 +1,53 @@
+[
+  {
+    "id": "f1",
+    "type": "heading",
+    "text": "Contact Support",
+    "level": 2
+  },
+  {
+    "id": "f2",
+    "type": "input",
+    "label": "Full Name",
+    "placeholder": "Enter your name",
+    "inputType": "text",
+    "required": true
+  },
+  {
+    "id": "f3",
+    "type": "input",
+    "label": "Email Address",
+    "placeholder": "you@example.com",
+    "inputType": "email",
+    "required": true,
+    "validation": "email"
+  },
+  {
+    "id": "f4",
+    "type": "textarea",
+    "label": "Message",
+    "placeholder": "Describe your issue...",
+    "rows": 4,
+    "required": true,
+    "minLength": 10
+  },
+  {
+    "id": "f5",
+    "type": "select",
+    "label": "Category",
+    "required": true,
+    "options": [
+      { "label": "General Inquiry", "value": "general" },
+      { "label": "Billing", "value": "billing" },
+      { "label": "Technical Support", "value": "support" },
+      { "label": "Feature Request", "value": "feature" }
+    ]
+  },
+  {
+    "id": "f6",
+    "type": "button",
+    "text": "Submit Request",
+    "variant": "primary",
+    "isSubmit": true
+  }
+]

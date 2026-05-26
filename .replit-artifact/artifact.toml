@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "AI App Generator"
+version = "1.0.0"
+id = "artifacts/ai-app-generator"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18405
+
+[services.development]
+run = "pnpm --filter @workspace/ai-app-generator run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ai-app-generator", "run", "build" ]
+publicDir = "artifacts/ai-app-generator/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18405"
+BASE_PATH = "/"

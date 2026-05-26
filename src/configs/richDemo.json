@@ -1,0 +1,46 @@
+[
+  {
+    "id": "r1",
+    "type": "section",
+    "title": "Create New Project",
+    "children": [
+      {
+        "id": "r2",
+        "type": "heading",
+        "text": "Project Details",
+        "level": 3
+      },
+      {
+        "id": "r3",
+        "type": "input",
+        "label": "Project Name",
+        "placeholder": "e.g. Apollo",
+        "inputType": "text",
+        "required": true
+      },
+      {
+        "id": "r4",
+        "type": "textarea",
+        "label": "Description",
+        "placeholder": "Briefly describe the project goals...",
+        "rows": 3
+      },
+      {
+        "id": "r5",
+        "type": "select",
+        "label": "Environment",
+        "options": [
+          { "label": "Development", "value": "dev" },
+          { "label": "Staging",     "value": "staging" },
+          { "label": "Production",  "value": "prod" }
+        ]
+      },
+      {
+        "id": "r6",
+        "type": "button",
+        "text": "Initialize Project",
+        "variant": "primary"
+      }
+    ]
+  }
+]
